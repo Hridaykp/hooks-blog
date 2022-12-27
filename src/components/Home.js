@@ -24,7 +24,7 @@ function Home() {
     return(
         <div className="home">
             <h1>Tech Blog</h1>
-            <div id="blog-by" > ..Hriday</div>
+            <div id="blog-by"> ...Hriday</div>
             {posts.map((post, index) => (
                 <div className="post" key={`post-${index}`} >
                     <Link to={`/post/${post.id}`} >
