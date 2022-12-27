@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <div>
-            <ul>
-                <li to="/" ><Link>Home</Link></li>
-                <li to="/create-post"><Link>Create Post</Link></li>
+            <ul id="nav" >
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/create-post">Create Post</Link></li>
             </ul>
         </div>
     );

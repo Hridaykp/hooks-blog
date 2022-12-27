@@ -66,6 +66,7 @@ code {
 }
 #nav li a:hover {
   text-decoration: underline;
+  color: rgb(86, 86, 155);
 }
 .create-post h1 {
   text-align: center;
@@ -88,7 +89,7 @@ code {
 
 .create-post .form-field textarea {
   border: 1px solid #e1e1e1;
-  height: 400px;
+  height: inherit;
   font-size: 18px;
   padding-left: 10px;
   border-radius: 3px;
@@ -103,4 +104,8 @@ code {
   font-size: 15px;
   border-radius: 3px;
   cursor: pointer;
+}
+.create-post-btn:hover{
+  color: #0c2e0e;
+  background-color: rgb(173, 224, 212);
 }
